@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{46D547D0-259C-4352-A178-953591F8AF35}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{CF92BFA5-B4C7-433B-B890-5EFC31CCA0AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Catalog", "Services\Catalog\MultiShop.Catalog\MultiShop.Catalog.csproj", "{3BA9B716-162D-4968-8807-CB7BB4E69D7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{4A4D3D9C-A4E6-4C14-A243-7CF72B3FDA4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Discount", "Services\Discount\MultiShop.Discount\MultiShop.Discount.csproj", "{2A2B3283-FF13-4E79-89EB-3B28D83391DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +23,10 @@ Global
 		{3BA9B716-162D-4968-8807-CB7BB4E69D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BA9B716-162D-4968-8807-CB7BB4E69D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BA9B716-162D-4968-8807-CB7BB4E69D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A2B3283-FF13-4E79-89EB-3B28D83391DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2B3283-FF13-4E79-89EB-3B28D83391DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2B3283-FF13-4E79-89EB-3B28D83391DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2B3283-FF13-4E79-89EB-3B28D83391DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,5 +34,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{CF92BFA5-B4C7-433B-B890-5EFC31CCA0AE} = {46D547D0-259C-4352-A178-953591F8AF35}
 		{3BA9B716-162D-4968-8807-CB7BB4E69D7E} = {CF92BFA5-B4C7-433B-B890-5EFC31CCA0AE}
+		{4A4D3D9C-A4E6-4C14-A243-7CF72B3FDA4B} = {46D547D0-259C-4352-A178-953591F8AF35}
+		{2A2B3283-FF13-4E79-89EB-3B28D83391DE} = {4A4D3D9C-A4E6-4C14-A243-7CF72B3FDA4B}
 	EndGlobalSection
 EndGlobal
