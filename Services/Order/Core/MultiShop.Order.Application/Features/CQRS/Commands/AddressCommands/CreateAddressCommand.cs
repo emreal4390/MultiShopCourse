@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MultiShop.Order.Application.Features.CQRS.Results.AddressResults
+namespace MultiShop.Order.Application.Features.CQRS.Commands.AddressCommands
 {
-    public class GetAddressQueryResult
+    public class CreateAddressCommand
     {
         public int AddressId { get; set; }
         public string UserId { get; set; }

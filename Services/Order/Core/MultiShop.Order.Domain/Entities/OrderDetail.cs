@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MultiShop.Order.Domain.Entities
 {
-    internal class OrderDetail
+    public class OrderDetail
     {
         public int OrderDetailId { get; set; }
         public string ProductId { get; set; }
